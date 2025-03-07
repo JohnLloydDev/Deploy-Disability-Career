@@ -3,7 +3,7 @@ import axios from "axios";
 import { create } from "zustand";
 import toast from "react-hot-toast";
 
-const BASE_URL = "https://deploy-disability-career-git-main-john-lloyds-projects-a10e9887.vercel.app/api/admin";
+const BASE_URL = "https://deploy-disability-career.vercel.app/api/admin";
 
 axios.defaults.withCredentials = true;
 export const adminStore = create((set) => ({
