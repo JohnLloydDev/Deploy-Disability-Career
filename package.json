@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node index.js",
-  "dev": "nodemon backend/index.js"
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
+  },
   "keywords": [],
   "author": "",
   "type": "module",
