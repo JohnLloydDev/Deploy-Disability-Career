@@ -43,6 +43,9 @@ app.use("/api/email", emailRoutes);
 app.use("/api/notifications", notificationRoutes);
 app.use("/api/contact", contactRoutes);
 
+app.get("/api/test", (req, res) => {
+  res.json({ message: "API is working!" });
+});
 
 const PORT = process.env.PORT || 5000
 
